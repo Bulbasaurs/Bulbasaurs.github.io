@@ -1,0 +1,146 @@
+body{	
+	font-family: "Comic Sans MS";	
+	background-color: #d4d9d6;
+	background-image: url("pkmntrees.png");
+}
+
+p{
+	background-color: lightgreen;
+	border: 2px dotted white;
+	font-family: "Candara";
+	text-align: center;
+	transition: background-color 1s;
+}
+
+div{
+	background-color: darkgreen;
+	border: 2px dotted white;
+	font-family: "Candara";
+	text-align: center;
+	transition: background-color 1s;
+	padding: 2px;
+}
+
+h1{
+	background-color: lightgreen;
+	border: dashed white;
+	text-align: center;
+	color: lightgray;
+	font-family: "Jokerman";
+	padding: 2px;
+}
+
+#grad{
+	border: none;
+	background-image: linear-gradient(to  right,  lightgreen, lightgray, lightgreen);
+} 
+
+table, th, td{
+	text-align: center;
+	border: 2px solid gray;
+	background-color: lightgreen;
+}
+
+ul li{
+	color: #a3d9bc;	
+	padding: 2px;
+}
+
+ol li{
+	color: #7bc9a0;
+}
+
+#hello{
+	border: 5 px;
+}
+
+.tree {
+	border: 10px dashed green;
+}
+
+.bottle {
+	margin: 3cm;
+}
+
+p.tree{
+	text-align: center;
+}
+
+#firstpokemon {
+	width: 35px;
+}
+
+a:hover{
+	color: #000000;
+}
+a{
+	color:#5bc78e;
+	font-family:"Comic Sans MS";
+	transition: color 1s;
+}
+
+p:hover{
+	background-color:#416954;
+}
+
+nav {
+	position: fixed;
+	background: gray;
+	border-bottom: 2px dashed #416954;
+	width: 100%;
+	margin-left: -8px;
+}
+
+nav > ul > li {
+	list-style-type: none;
+	margin: 20 px 5px;
+}
+
+nav > ul > li > ul {
+	display: none;
+	background-color: #416954;
+	border: 1px solid lightgreen;
+}
+nav > ul > li:hover > ul {
+	display: block;
+	position: fixed;
+	top: 70px;
+	padding: 20px;
+}
+
+	#animate {
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  50% {color: #365c48;}
+}
+
+#multicol-area{
+	column-count: 3
+}
+
+#flexbox{
+	display: flex;
+	flex-direction: row;
+}
+
+#box1{
+	background-color: #365c48;
+	flex: 10;
+}
+
+#box2{
+	background-color: lightgreen;
+	flex: 40;
+}
+
+#box3{
+	background-color: #365c48;
+	flex: 10;
+}
+
+#box4{
+	background-color: lightgreen;
+	flex: 40;
+}
